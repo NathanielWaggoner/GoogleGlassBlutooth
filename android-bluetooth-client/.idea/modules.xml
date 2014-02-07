@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-bluetooth-client.iml" filepath="$PROJECT_DIR$/android-bluetooth-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/generated-sources/generated-sources.iml" filepath="$PROJECT_DIR$/target/generated-sources/generated-sources.iml" />
+    </modules>
+  </component>
+</project>
+

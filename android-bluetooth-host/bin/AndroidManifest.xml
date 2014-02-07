@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="transapps.android_bluetooth_host"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="transapps.android_bluetooth_host.BluetoothHost"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<receiver android:name=".BluetoothHost$HostBroadRec" >
+            <intent-filter>
+                <action android:name="transapps.g6.new.alert" />
+            </intent-filter>
+        </receiver>
+        <!-- Gotten from chat constants.  We really need to mavenize this... -->
+		<receiver android:name=".BluetoothHost$ChatReceiver" >
+            <intent-filter>
+                <action android:name="transapps.chat.G6_CHAT_RECIEVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+    
+
+</manifest>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android-bluetooth-client/bin/dexedLibs/annotations-48dc123d124d84d968030f8d2e270d3c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android-bluetooth-client/bin/dexedLibs/android-support-v4-7b4210a4f7fe06bca567040e014ff8d1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
