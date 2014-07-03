@@ -19,7 +19,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
